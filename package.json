@@ -8,14 +8,14 @@
         "url": "https://github.com/forknote/forknote-pool"
     },
     "dependencies": {
-        "bignum": "*",
+        "@vigcoin/cryptonote-util": "*",
+        "@vigcoin/multi-hashing": "^0.3.0",
         "async": "1",
-        "redis": "*",
+        "base58-native": "*",
+        "bignum": "*",
         "cli-color": "*",
         "dateformat": "*",
-        "base58-native": "*",
-        "@vigcoin/multi-hashing": "*",
-        "@vigcoin/cryptonote-util": "*"
+        "redis": "*"
     },
     "engines": {
         "node": ">=0.10"
