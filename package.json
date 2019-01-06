@@ -1,21 +1,21 @@
 {
-    "name": "forknote-pool",
+    "name": "vigcoin-pool",
     "version": "0.0.1",
     "license": "GPL-2.0",
-    "authors": "Matthew Little",
+    "authors": "Matthew Little, Calidion",
     "repository": {
         "type": "git",
         "url": "https://github.com/forknote/forknote-pool"
     },
     "dependencies": {
-        "@vigcoin/cryptonote-util": "*",
         "@vigcoin/multi-hashing": "^0.3.0",
         "async": "1",
         "base58-native": "*",
         "bignum": "*",
         "cli-color": "*",
         "dateformat": "*",
-        "redis": "*"
+        "redis": "*",
+        "cryptonote-util": "git://github.com/Snipa22/node-cryptonote-util#xmr-Nan-2.0"
     },
     "engines": {
         "node": ">=0.10"
