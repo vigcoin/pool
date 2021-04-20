@@ -1,4 +1,5 @@
 var fs = require('fs');
+var path = require('path');
 var cluster = require('cluster');
 var os = require('os');
 
@@ -8,7 +9,7 @@ var redis = require('redis');
 require('./lib/configReader.js');
 
 require('./lib/logger.js');
-
+var config = require(path.resolve(__dirname, "./config/config.json"));
 
 global.redisClient = redis.createClient(config.redis.port, config.redis.host);
 
